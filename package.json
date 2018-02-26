@@ -1,0 +1,27 @@
+{
+  "name": "nicotaba",
+  "version": "1.0.0",
+  "author": "ru_shalm <ru_shalm@hazimu.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron ./app",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development run-p start watch",
+    "watch": "webpack -w",
+    "packaging": "electron-packager --overwrite --icon=./icons/nicotaba.icns ./app"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "electron": "^1.7.5",
+    "electron-packager": "^9.0.0",
+    "npm-run-all": "^4.1.1",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "shuffle-array": "^1.0.1"
+  }
+}
