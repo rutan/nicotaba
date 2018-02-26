@@ -1,5 +1,7 @@
 # nicotaba - ニコニコTouchBar
 
+![image](./image.jpg)
+
 nicotaba（にこたば）はニコニコ動画をMacBookProのTouchBarで再生する変な子です。
 
 ## how to use
